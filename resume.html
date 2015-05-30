@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= yield(:title) %></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "Sarah Sweetpotato", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   root_path %></li>
+        <li><%= link_to "About",   about_path %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="container">
+    <div class="divide">
+</div>
+<div id="am">
+  <section id="about">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Donec lacus lorem, commodo a mauris non, finibus consectetur
+      nulla. Morbi egestas ipsum ac leo consectetur, at efficitur
+      ante eleifend. Pellentesque a nunc libero. Praesent posuere,
+      ex eget tristique euismod, neque turpis pretium metus, sed
+      volutpat libero eros ac sapien. Suspendisse est enim,
+      hendrerit ac lectus eu, condimentum placerat nisi.
+    </p>
+    <h1>About&nbsp;</h1>
+  </section>
+  <section id="me">
+
+      <a href="http://imgur.com/PFkICAh"><img src="http://i.imgur.com/PFkICAh.jpg?1" title="source: imgur.com" /></a>
+    <h1>&nbsp;Me</h1>
+  </section>
+</div>
+<div class="divide">
+</div>
+<div class="divide">
+</div>
+<div id="skills">
+  <h1>Skills</h1>
+  <section class="skills">
+    <h3>Acquired</h3>
+    <ul>
+      <li>Ruby</li>
+      <li>Rails</li>
+      <li>Javascript</li>
+      <li>Node</li>
+      <li>Mongo</li>
+      <li>Angular</li>
+    </ul>
+  </section>
+  <section class="skills">
+    <h3>Currently Learning</h3>
+    <ul>
+      <li>Meteor</li>
+    </ul>
+  </section>
+  <section class="skills">
+    <h3>What's Next</h3>
+    <ul>
+      <li>React</li>
+    </ul>
+  </section>
+</div>
+<div class="divide">
+</div>
+<div id=projects>
+  <h1>Projects</h1>
+  <section class="projects">
+    <h3>Project 1</h3>
+  </section>
+  <section class="projects">
+    <h3>Project 2</h3>
+  </section>
+  <section class="projects">
+    <h3>Project 3</h3>
+  </section>
+</div>
+<div class="divide">
+</div>
+<div id="idealjob">
+  <h1>What I'm looking for</h1>
+  <div id="job">
+    <h3>My Ideal Job</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Donec lacus lorem, commodo a mauris non, finibus consectetur
+    nulla. Morbi egestas ipsum ac leo consectetur, at efficitur
+    ante eleifend. Pellentesque a nunc libero. Praesent posuere,
+    ex eget tristique euismod, neque turpis pretium metus, sed
+    volutpat libero eros ac sapien. Suspendisse est enim,
+    hendrerit ac lectus eu, condimentum placerat nisi.
+  </p>
+</div>
+<div id="other">
+  <h3>Some Other Stuff</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Donec lacus lorem, commodo a mauris non, finibus consectetur
+  nulla. Morbi egestas ipsum ac leo consectetur, at efficitur
+  ante eleifend. Pellentesque a nunc libero. Praesent posuere,
+  ex eget tristique euismod, neque turpis pretium metus, sed
+  volutpat libero eros ac sapien. Suspendisse est enim,
+  hendrerit ac lectus eu, condimentum placerat nisi.
+</p>
+</div>
+</div>
+
+  </div>
+  </body>
+</html>
