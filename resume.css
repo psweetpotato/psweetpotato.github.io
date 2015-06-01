@@ -86,7 +86,6 @@ ul {
   padding-left: 100px;
   margin: auto;
   height: 300px;
-  padding-top: 50px;
 }
 
 #about h1 {
@@ -96,6 +95,7 @@ ul {
 
 #about p {
   height: 300px;
+  padding-top: 50px;
 }
 
 #me {
