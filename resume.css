@@ -60,11 +60,20 @@ ul {
   font-weight: bold;
 }
 
-#logo:hover {
+/*#logo:hover {
   color: #fff;
   text-decoration: none;
-}
+}*/
 
+.hlinks {
+  float: left;
+  margin-right: 10px;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: -1px;
+  padding-top: 9px;
+
+}
 /* about me */
 #am {
   width: 100%;
