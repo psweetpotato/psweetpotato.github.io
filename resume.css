@@ -54,7 +54,7 @@ ul {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: #FDB724;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -69,9 +69,9 @@ ul {
   float: left;
   margin-right: 10px;
   font-size: 1em;
-  color: #fff;
+  color: #777;
   letter-spacing: -1px;
-  padding-top: 12px;
+  padding-top: 14px;
 
 }
 /* about me */
