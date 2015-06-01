@@ -91,6 +91,7 @@ ul {
 #about h1 {
   float: right;
   margin: auto;
+  display: block;
 }
 
 #about p {
