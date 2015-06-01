@@ -86,12 +86,12 @@ ul {
   padding-left: 100px;
   margin: auto;
   height: 300px;
+  display: block;
 }
 
 #about h1 {
   float: right;
   margin: auto;
-  display: block;
 }
 
 #about p {
