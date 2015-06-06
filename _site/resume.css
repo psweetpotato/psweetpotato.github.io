@@ -155,6 +155,7 @@ div img {
   float: left;
   width: 50%;
   padding-left: 100px;
+  padding-right: 25px;
   margin: auto;
   height: 300px;
 }
@@ -163,6 +164,7 @@ div img {
   float: left;
   width: 50%;
   margin: auto;
+  padding-left: 25px;
   padding-right: 100px;
   height: 345px;
 }
