@@ -146,6 +146,9 @@ div img {
   height: 300px;
 }
 
+.projects h3 {
+  color: #FEA650;
+}
 /* ideal job */
 #job {
   float: left;
