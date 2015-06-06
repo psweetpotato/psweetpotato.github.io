@@ -59,20 +59,21 @@ ul {
   padding-top: 9px;
   font-weight: bold;
 }
-/*
+
 .hlinks {
   float: left;
   margin-right: 10px;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #777;
   letter-spacing: -1px;
   padding-top: 14px;
-}*/
+}
 
-/*.hlinks:hover {
+.hlinks:hover {
   color: #FEA650;
   text-decoration: none;
-}*/
+}
+
 /* about me */
 #am {
   width: 100%;
