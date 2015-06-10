@@ -120,6 +120,9 @@ div img {
   margin-left: auto;
   margin-right: auto;
   height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
 }
 
 /* skills */
