@@ -1,0 +1,8 @@
+
+# baseurl: "/OtSRblog" # the subpath of your site, e.g. /blog/
+url: "psweetpotato.github.io" # the base hostname & protocol for your site
+twitter_username: PSweetpotato
+github_username:  psweetpotato
+
+# Build settings
+markdown: kramdown
