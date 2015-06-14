@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Resume Page": {
+      "applicationId": "8bhec68k0ObpXTAOmlvhCH6qh3j9sTfl557BHUOw",
+      "masterKey": "fS4nQOF8pESOAqgAZGo9dXucXW5TbMR0EOt3UomM"
+    },
+    "_default": {
+      "link": "Resume Page"
+    }
+  }
+}
