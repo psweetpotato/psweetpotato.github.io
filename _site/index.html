@@ -12,6 +12,8 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="psweetpotato.github.io/">
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 
@@ -22,7 +24,9 @@
   <span id="logo">Sarah Sweetpotato</span>
   <nav>
     <ul class="nav navbar-nav navbar-right">
-      <li class="hlinks">Contact</li>
+      <li id="c-button" class="hlinks" onClick="contactFunction()">
+        Contact
+      </li>
     </ul>
   </nav>
 </div>
@@ -154,7 +158,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <!-- <li></li> -->
+          <!-- <li>Sarah Sweetpotato</li> -->
           <li>By: Sarah McDonald</li>
         </ul>
       </div>
