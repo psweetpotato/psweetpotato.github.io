@@ -62,18 +62,13 @@ img {
   font-weight: bold;
 }
 
-.hlinks {
+#c-button {
   float: left;
   margin-right: 10px;
   font-size: 1.2em;
-  color: #777;
+  color: #FEA650;
   letter-spacing: -1px;
   padding-top: 14px;
-}
-
-.hlinks:hover {
-  color: #FEA650;
-  text-decoration: none;
 }
 
 /* about me */
@@ -198,7 +193,7 @@ border: 1px solid #FFB973;
 
 @media (min-width: 1000px) {
   .chart .skill {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .axis {
