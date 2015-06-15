@@ -123,10 +123,17 @@ img {
   }
 }
 
-
 #about h1 {
   float: right;
   margin: auto;
+  padding-right: 5%;
+}
+@media only screen and (max-width: 480px) {
+  #about h1 {
+    padding-right: 0%;
+    float: right;
+    margin: auto;
+  }
 }
 
 #about p {
@@ -138,9 +145,16 @@ img {
   position: relative;
   float: left;
   margin: auto;
-
 }
+@media only screen and (max-width: 480px) {
+  #me h1 {
+    padding-top: 4%;
+    position: relative;
+    float: right;
+    margin: auto;
 
+  }
+}
 #picofme {
   height: 300px;
   border-radius: 150px;
