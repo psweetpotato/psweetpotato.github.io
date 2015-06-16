@@ -70,6 +70,16 @@ img {
   letter-spacing: -1px;
   padding-top: 14px;
 }
+@media only screen and (max-width: 480px) {
+  #c-button {
+    float: right;
+    margin-right: 20px;
+    font-size: 1.2em;
+    color: #FEA650;
+    letter-spacing: -1px;
+    padding-top: 10px;
+  }
+}
 
 /* about me */
 
