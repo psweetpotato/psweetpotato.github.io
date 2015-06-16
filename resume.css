@@ -101,7 +101,7 @@ img {
 	width: 100%;
 }
 .span_1_of_2 {
-	width: 49.2%;
+	width: 48%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -137,7 +137,6 @@ img {
 }
 
 #about p {
-  height: 300px;
   padding-top: 50px;
 }
 
@@ -165,8 +164,6 @@ img {
 /* skills */
 
 #skills {
-  width: 100%;
-  margin: auto;
   height: 650px;
   padding-left: 100px;
   padding-right: 100px;
@@ -204,6 +201,12 @@ border: 1px solid #FFB973;
 }
 
 .chart span { font-size: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .chart {
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 700px) {
