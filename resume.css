@@ -250,9 +250,6 @@ border: 1px solid #FFB973;
 /* projects */
 
 .projects {
-  float: left;
-  width: 33%;
-  margin: auto;
   height: 400px;
 }
 
@@ -263,6 +260,17 @@ border: 1px solid #FFB973;
 .projectpics {
   height: 175px;
   border:1px solid #021a40;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 31%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
 /* ideal job */
