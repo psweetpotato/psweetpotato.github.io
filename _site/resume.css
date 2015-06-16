@@ -275,19 +275,15 @@ border: 1px solid #FFB973;
 
 /* ideal job */
 #job {
-  float: left;
-  width: 50%;
-  padding-left: 100px;
-  padding-right: 25px;
-  margin: auto;
-  height: 300px;
+  height: 350px;
 }
 
 #other {
-  float: left;
-  width: 50%;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 100px;
-  height: 345px;
+  height: 350px;
+}
+
+@media only screen and (max-width: 480px) {
+  #idealjob h1 {
+    font-size: 45px;
+  }
 }
