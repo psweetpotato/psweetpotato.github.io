@@ -213,9 +213,14 @@ border: 1px solid #FFB973;
 .chart span { font-size: 30px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 699px) {
   .chart {
     visibility: hidden;
+  }
+}
+@media only screen and (min-width: 699px) {
+  .tidy-list {
+    display: none;
   }
 }
 
@@ -259,11 +264,7 @@ border: 1px solid #FFB973;
   height: 83px;
 }
 
-@media (min-width: 1000px) {
-  .tidy-list {
-    display: none;
-  }
-}
+
 /* projects */
 
 .projects {
