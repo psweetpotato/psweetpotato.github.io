@@ -259,7 +259,11 @@ border: 1px solid #FFB973;
   height: 83px;
 }
 
-
+@media (min-width: 1000px) {
+  .tidy-list {
+    display: none;
+  }
+}
 /* projects */
 
 .projects {
