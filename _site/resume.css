@@ -98,9 +98,10 @@ img {
 }
 .col:first-child {
   margin-left: 0;
+}
+#about {
   border-right: solid black;
 }
-
 /*  GROUPING  */
 .group:before,
 .group:after { content:""; display:table; }
@@ -127,7 +128,7 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
-  .col:first-child {
+  #about {
     margin-left: 0;
     border-right: solid white;
   }
@@ -222,6 +223,10 @@ border: 1px solid #FFB973;
   .tidy-list {
     display: none;
   }
+}
+
+.span_1_of_5 {
+	width: 18.72%;
 }
 
 @media (min-width: 700px) {
