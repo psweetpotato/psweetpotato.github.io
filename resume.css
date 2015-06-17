@@ -147,12 +147,13 @@ img {
 }
 
 #about p {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 #me h1 {
   position: relative;
   margin: auto;
+  padding-bottom: 25px;
 }
 @media only screen and (min-width: 700px) {
   #me h1 {
