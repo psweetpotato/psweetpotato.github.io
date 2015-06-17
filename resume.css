@@ -135,14 +135,13 @@ img {
 }
 
 #about h1 {
-  float: right;
   margin: auto;
-  padding-right: 5%;
+  padding-right: 0%;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 700px) {
   #about h1 {
-    padding-right: 0%;
     float: right;
+    padding-right: 5%;
     margin: auto;
   }
 }
@@ -153,16 +152,13 @@ img {
 
 #me h1 {
   position: relative;
-  float: left;
   margin: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 700px) {
   #me h1 {
-    padding-top: 4%;
     position: relative;
-    float: right;
+    float: left;
     margin: auto;
-
   }
 }
 #picofme {
