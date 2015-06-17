@@ -229,6 +229,11 @@ border: 1px solid #FFB973;
 	width: 18.72%;
 }
 
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_5 { width: 100%; }
+}
+
 @media (min-width: 700px) {
   .chart {
     background: url("http://cl.ly/QSpc/bg-chart.png") right top repeat-x;
