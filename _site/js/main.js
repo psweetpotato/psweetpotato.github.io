@@ -6,7 +6,7 @@ function contactFunction() {
 
 function topPage() {
   $('html,body').animate({
-      scrollTop: $("#am").offset().top},
+      scrollTop: $("#top-page").offset().top},
       'slow');
 };
 
