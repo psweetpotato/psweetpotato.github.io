@@ -226,7 +226,7 @@ border: 1px solid #FFB973;
 	width: 18.72%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 699px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_5 { width: 100%; }
 }
