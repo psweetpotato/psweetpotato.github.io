@@ -309,7 +309,18 @@ border: 1px solid #FFB973;
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 {
+    width: 100%;
+  }
+  #projects h1 {
+    padding-top: 50px;
+  }
+  .projects h3 {
+    padding-top: 10px;
+  }
+  .projects {
+    height: 350px;
+  }
 }
 
 /* ideal job */
@@ -324,5 +335,8 @@ border: 1px solid #FFB973;
 @media only screen and (max-width: 480px) {
   #idealjob h1 {
     font-size: 40px;
+  }
+  #job {
+    height: 300px;
   }
 }
