@@ -60,6 +60,7 @@ img {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #c-button {
@@ -69,6 +70,7 @@ img {
   color: #FEA650;
   letter-spacing: -1px;
   padding-top: 14px;
+  cursor: pointer;
 }
 @media only screen and (max-width: 700px) {
   #c-button {
