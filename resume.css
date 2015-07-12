@@ -137,9 +137,7 @@ img {
     height: 300px;
   }
 }
-#about {
-  border-right: solid black;
-}
+
 #about h1 {
   margin: auto;
   padding-right: 0%;
@@ -149,6 +147,9 @@ img {
     float: right;
     padding-right: 5%;
     margin: auto;
+  }
+  #about {
+    border-right: solid black;
   }
 }
 
