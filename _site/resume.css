@@ -146,8 +146,12 @@ img {
 
 #about p {
   padding-top: 25px;
+  padding-right: 15px;
+  text-align: justify;
 }
-
+#about h4 {
+  text-align: center;
+}
 #me h1 {
   position: relative;
   margin: auto;
@@ -279,6 +283,7 @@ border: 1px solid #FFB973;
 
 .projects {
   height: 400px;
+  text-align: justify;
 }
 
 .projects h3 {
@@ -313,13 +318,11 @@ border: 1px solid #FFB973;
 }
 
 /* ideal job */
-#job {
+#idealjob {
   height: 300px;
+  text-align: justify;
 }
 
-#other {
-  height: 300px;
-}
 
 
 @media only screen and (max-width: 480px) {
