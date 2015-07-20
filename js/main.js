@@ -22,7 +22,7 @@ window.onresize = function(event){
     if (newSize < $windowSize * 0.35) {
       swal({
         title: "Yay!",
-        text: "YUP, it's responsive!",
+        text: "It's responsive!",
         type: "success",   confirmButtonText: "Cool" });
       called = true
     } else {
