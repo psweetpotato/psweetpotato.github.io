@@ -323,13 +323,12 @@ border: 1px solid #FFB973;
   text-align: justify;
 }
 
-
-
+#idealjob p {
+  padding-right: 15px;
+}
 @media only screen and (max-width: 480px) {
   #idealjob h1 {
     font-size: 40px;
-  }
-  #job {
     height: 300px;
-  }
+    }
 }
