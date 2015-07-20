@@ -307,13 +307,13 @@ border: 1px solid #FFB973;
     width: 100%;
   }
   #projects h1 {
-    padding-top: 50px;
+    padding-top: 70px;
   }
   .projects h3 {
     padding-top: 10px;
   }
   .projects {
-    height: 350px;
+    height: 15%;
   }
 }
 
