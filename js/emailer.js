@@ -27,8 +27,8 @@ $(document).ready(function() {
 				swal({
 					title: "Thank you!",
 					text: "Sent!",
-					type: "success",   confirmButtonText: "Cool" });
-				// $('#response').html('Sent!').addClass('success').fadeIn('fast');
+					type: "success",   confirmButtonText: "Cool"
+				});
         $('input[type="text"], textarea').val('')
         $('input[type="email"], textarea').val('')
 			},
