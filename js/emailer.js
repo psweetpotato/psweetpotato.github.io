@@ -24,7 +24,11 @@ $(document).ready(function() {
 		comment.save(data, {
 			success:function() {
 				console.log("Success");
-				$('#response').html('Email successful!').addClass('success').fadeIn('fast');
+				swal({
+					title: "Thank you!",
+					text: "Sent!",
+					type: "success",   confirmButtonText: "Cool" });
+				// $('#response').html('Sent!').addClass('success').fadeIn('fast');
         $('input[type="text"], textarea').val('')
         $('input[type="email"], textarea').val('')
 			},
